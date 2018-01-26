@@ -1,0 +1,15 @@
+flyway:
+  enabled: true
+  baselineOnMigrate: true
+  validateOnMigrate: true
+
+
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: jdbc:postgresql://localhost/msi_test
+    username: jalisagreene
