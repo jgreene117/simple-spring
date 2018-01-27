@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
-  private static final String APP_VIEW_NAME = "/";
+  private static final String APP_VIEW_NAME = "/index.html";
 
   @Override
   public void addViewControllers(ViewControllerRegistry registry) {

@@ -33,7 +33,7 @@ public class MsiApplicationTests {
 	@Test
 	public void pageLoads() {
 	    browser.navigateTo("/");
-	    assertFalse(browser.find(".message").getText().contains("Hello, world!"));
+	    assertTrue(browser.find("#message").getText().contains("Hello, world!"));
 	}
 
 }
